@@ -1,12 +1,12 @@
-this code is for ESP32, its take UART telemetry from Victron Solar chargers and relay the data to MQTT server.
+This code is for ESP32, its take UART telemetry from Victron Solar chargers and relay the data to MQTT server.
 
-this code is based on project: http://www.svpartyoffive.com/2018/02/28/victron-monitors-technical/
+This code is based on project: http://www.svpartyoffive.com/2018/02/28/victron-monitors-technical/
 
 Be advide Victron UART port use 5V logic levels, ESP32 is designed for 3.3V logic levels
 
-use logic level converter to avoid damage your ESP32!!!
+Use logic level converter to avoid damage your ESP32!!!
 
-define UART2 at pins 16 and 1
+define UART2 at pins 16 and 17
 
 
 
